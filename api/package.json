@@ -1,0 +1,19 @@
+{
+  "name": "querist-api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "cidr-tools": "^6.4.1",
+    "hono": "^3.5.4",
+    "ip6": "^0.2.10"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230821.0",
+    "wrangler": "^3.6.0"
+  }
+}

@@ -1,0 +1,17 @@
+name = "querist-api"
+compatibility_date = "2023-09-01"
+
+[dev]
+ip = "localhost"
+port = 8787
+local_protocol = "http"
+host = "localhost:8787"
+
+## If you don't use a custom domain
+## set "workers_dev = true"
+## and comment out [route].
+workers_dev = false
+
+[route]
+pattern = "api.ip.lain.im"
+custom_domain = true

@@ -1,0 +1,1 @@
+export { getIP } from './ip';

@@ -1,0 +1,13 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  a {
+    @apply
+      hover:text-gray-900
+      underline
+      underline-offset-4;
+  }
+}
